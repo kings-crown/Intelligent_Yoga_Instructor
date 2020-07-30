@@ -1,0 +1,22 @@
+item {
+  id: 1
+  name: 'mountain'
+}
+
+item {
+  id: 2
+  name: 'lion'
+}
+
+item {
+  id: 3
+  name: 'triangle'
+}
+item {
+  id: 4
+  name: 'tree'
+}
+item {
+  id: 5
+  name: 'warrior'
+}
