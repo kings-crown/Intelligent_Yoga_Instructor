@@ -21,8 +21,8 @@ warrior = [{'id': 5, 'name': 'warrior'}]
 
 def draw():
     
-    PATH_TO_FROZEN_GRAPH = 'C:/Users/balaj/Pose_estimation/inference_final/frozen_inference_graph.pb'
-    PATH_TO_LABEL_MAP = 'C:/Users/balaj/Pose_estimation/label_final.pbtxt'
+    PATH_TO_FROZEN_GRAPH = '/inference_final/frozen_inference_graph.pb'
+    PATH_TO_LABEL_MAP = '/Pose_estimation/label_final.pbtxt'
     NUM_CLASSES = 5
 
     label_map = label_map_util.load_labelmap(PATH_TO_LABEL_MAP)
